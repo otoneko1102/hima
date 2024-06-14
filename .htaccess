@@ -1,5 +1,0 @@
-RewriteEngine On
-
-RewriteCond %{REQUEST_URI} !\.(jpg|jpeg|png|apng|webp|gif)$ [NC]
-
-RewriteRule ^(.*)$ http://www.hima-server.com/ [R=301,L]
